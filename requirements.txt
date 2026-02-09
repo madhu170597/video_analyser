@@ -1,0 +1,16 @@
+# Video download & processing
+yt-dlp>=2024.1.0
+opencv-python-headless>=4.8.0
+ffmpeg-python>=0.2.0
+
+# Face detection & clustering (open source)
+deepface>=0.0.79
+scikit-learn>=1.3.0
+tf-keras  # required for TensorFlow 2.20+
+
+# Transcription (open source Whisper)
+openai-whisper>=20231117
+
+# LLM APIs
+google-generativeai>=0.8.0  # Gemini API (fallback)
+google-cloud-aiplatform>=1.40.0  # Vertex AI (recommended for production)
